@@ -1,0 +1,23 @@
+.formationList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    background-image: url('/images/backgrounds/textures/straws.png'), linear-gradient(#ffffff, #d1d1d1);
+}
+
+.formationWrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    padding: 50px;
+    border: 10px #770000 double;
+    border-radius: 10px;
+    background-image: url('/images/backgrounds/textures/straws.png'), linear-gradient(#ffffff, #d1d1d1);
+}

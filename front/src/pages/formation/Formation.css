@@ -1,0 +1,36 @@
+.formation {
+    height: 100%;
+    width: 100%;
+    /* border: blue 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formationPreview, .formationDescription {
+    height: 100%;
+    flex: 1;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formationPreview img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.formationDescription {
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 2em;
+}
+
+.infoIcon {
+    color: black;
+    font-size: 1em;
+    text-transform: capitalize;
+}

@@ -1,0 +1,46 @@
+/*///////////////////////////////////////////////////// MENU PC //////////////////////*/
+
+nav#menu {
+    z-index: 9999;
+    height: 50px;
+    box-shadow: 0 0 0 0 #000;
+    transition: all 0.5s ease-out;
+    background-color: #272830;
+    position: fixed;
+    width: 100%;
+}
+
+nav#menu:hover {
+    box-shadow: 0 0 20px 0 #000;
+}
+
+nav#menu ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+nav#menu ul li {
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.5);
+    transition: all 0.2s ease-out;
+}
+
+nav#menu ul li:hover {
+    font-size: 1.4em;
+    font-weight: 900;
+    color: white;
+}
+
+nav#menu .menuCv {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+nav#menu .menuCv:after {
+    content: '';
+    border: 2px red solid
+}
+
+/*///////////////////////////////////////////////////// MENU PC FIN //////////////////////*/
